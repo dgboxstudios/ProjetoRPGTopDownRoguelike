@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0476f2f6df87e5a40b66a420438b440a, type: 3}
+  m_Name: Desert Eagle
+  m_EditorClassIdentifier: 
+  weaponProjectile: {fileID: 2943479452263701151, guid: 1474f03d9b1ef9443b0d1557d48618f9, type: 3}
+  weaponName: Desert Eagle
+  weaponPrice: 80
+  weaponIcon: {fileID: -1133122768, guid: 2981188b146eece4db3560d30f59d1e1, type: 3}
+  weaponDamage: 2
+  weaponProjSpeed: 2
+  weaponSpeed: 0.5
+  weaponRange: 2
