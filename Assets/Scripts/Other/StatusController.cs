@@ -22,6 +22,7 @@ public class StatusController : MonoBehaviour
     [Header("Attack Configuration")]
     [Space]
     public GameObject projectile;
+    public GameObject barrel;
     public float projectileSpeed;
     public float attackSpeed;
     public float attackRange;

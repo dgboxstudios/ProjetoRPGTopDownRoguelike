@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerMoviment : MonoBehaviour
@@ -21,6 +20,7 @@ public class PlayerMoviment : MonoBehaviour
 
     // Animacoes
     private Animator anim;
+    private bool isMoveAnim;
 
     #endregion
 
@@ -62,6 +62,10 @@ public class PlayerMoviment : MonoBehaviour
         direction.Normalize();
 
         rb2D.MovePosition(rb2D.position + direction * statusController.moveSpeed * Time.fixedDeltaTime);
+
+        // Utilizado para passar os estados das animacoes
+        anim.SetBool("IsMove", direction.magnitude > 0);
+        isMoveAnim = direction.magnitude > 0;
     }
 
     // Utilizado para virar o personagem na direcao do mouse
@@ -70,13 +74,19 @@ public class PlayerMoviment : MonoBehaviour
         Vector2 newDirection = Input.mousePosition - Camera.main.WorldToScreenPoint(transform.position);
         newDirection.Normalize();
 
-        // Utilizado para fazer as animacoes de movimentacao
-        anim.SetFloat("Move X", newDirection.x);
-        anim.SetFloat("Move Y", newDirection.y);
+        if (isMoveAnim) // Utilizado para fazer as animacoes do movimento olhando para a direcao do mouse
+        {
+            anim.SetFloat("Move X", newDirection.x);
+            anim.SetFloat("Move Y", newDirection.y);
+        }
+        else // Utilizado para fazer as animacoes de parado na direcao do mouse
+        {
+            anim.SetFloat("Idle X", newDirection.x);
+            anim.SetFloat("Idle Y", newDirection.y);
+        }
     }
 
-    // Faz o jogador dar o dash que e um movimento na direcao que ele esta indo de acordo com o WASD
-    private IEnumerator Dash()
+    private IEnumerator Dash() // Faz o jogador dar o dash que e um movimento na direcao que ele esta indo de acordo com o WASD
     {
         canDash = true;
         isDash = true;

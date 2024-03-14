@@ -37,6 +37,7 @@ public class SpawnEnemys : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
+            gameObject.GetComponent<BoxCollider2D>().enabled = false;
             SpawnEnemy();
             dungeonActive = true;
         }

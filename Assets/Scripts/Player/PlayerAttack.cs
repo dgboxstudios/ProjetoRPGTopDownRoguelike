@@ -39,7 +39,7 @@ public class PlayerAttack : MonoBehaviour
             Vector2 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position;
             mousePosition.Normalize();
 
-            GameObject newProjectiled = Instantiate(statusController.projectile, transform.position, Quaternion.identity);
+            GameObject newProjectiled = Instantiate(statusController.projectile, gameObject.GetComponentInChildren<WeaponAim>().barrelPosition.transform.position, Quaternion.identity);
             newProjectiled.GetComponent<Projectiled>().ConfigProjectiled(mousePosition, statusController.projectileSpeed, statusController.attackRange, statusController.attackDamage * ((statusController.bonusAttackDamage + 100) / 100));
 
             isAttack = false;

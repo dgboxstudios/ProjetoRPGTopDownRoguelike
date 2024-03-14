@@ -20,6 +20,11 @@ public class ItemStore : MonoBehaviour
         Store(weapons);
     }
 
+    private void Update()
+    {
+        RefreshItem();
+    }
+
     public void Store(Weapons weapons_)
     {
         iconHolder.sprite = weapons_.weaponIcon;
@@ -39,7 +44,7 @@ public class ItemStore : MonoBehaviour
         InventoryManager.Instance.weaponInventory[0] = weapons;
         InventoryManager.Instance.GoldAdd(weapons.weaponPrice * -1);
 
-        RefreshItem();
+        //RefreshItem();
         Destroy(gameObject);
     }
 

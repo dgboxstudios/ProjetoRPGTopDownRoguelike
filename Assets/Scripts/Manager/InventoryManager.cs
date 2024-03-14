@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -73,16 +74,22 @@ public class InventoryManager : MonoBehaviour
         SelectWeapon();
     }
 
-    // Seleciona e passa a arma e configuracoes da mesma para o jogador
+    // Destroi, seleciona e passa a arma e configuracoes da mesma para o jogador
     private void SelectWeapon()
     {
+        if(GameManager.Instance.player.transform.childCount > 0)
+            Destroy(GameManager.Instance.player.transform.GetChild(0).gameObject);
+
         Weapons toWeapon = weaponInventory[0];
 
         GameManager.Instance.player.GetComponent<StatusController>().projectile = toWeapon.weaponProjectile;
+        GameManager.Instance.player.GetComponent<StatusController>().barrel = toWeapon.weaponBarrel;
         GameManager.Instance.player.GetComponent<StatusController>().projectileSpeed = toWeapon.weaponProjSpeed;
         GameManager.Instance.player.GetComponent<StatusController>().attackSpeed = toWeapon.weaponSpeed;
         GameManager.Instance.player.GetComponent<StatusController>().attackRange = toWeapon.weaponRange;
         GameManager.Instance.player.GetComponent<StatusController>().attackDamage = toWeapon.weaponDamage;
+
+        Instantiate(GameManager.Instance.player.GetComponent<StatusController>().barrel, GameManager.Instance.player.gameObject.transform);
     }
 
     #endregion

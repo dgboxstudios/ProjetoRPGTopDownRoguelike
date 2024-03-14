@@ -11,6 +11,7 @@ public class Weapons : ScriptableObject
     public int weaponPrice;
     public Sprite weaponIcon;
     public GameObject weaponProjectile;
+    public GameObject weaponBarrel;
 
     [Header("Status Config")]
     [Space]

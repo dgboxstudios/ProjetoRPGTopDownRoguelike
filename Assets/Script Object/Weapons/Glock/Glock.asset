@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0476f2f6df87e5a40b66a420438b440a, type: 3}
   m_Name: Glock
   m_EditorClassIdentifier: 
-  weaponProjectile: {fileID: 2943479452263701151, guid: 1474f03d9b1ef9443b0d1557d48618f9, type: 3}
   weaponName: AUG
   weaponPrice: 50
   weaponIcon: {fileID: -1442099363, guid: 2981188b146eece4db3560d30f59d1e1, type: 3}
+  weaponProjectile: {fileID: 2943479452263701151, guid: 1474f03d9b1ef9443b0d1557d48618f9, type: 3}
+  weaponBarrel: {fileID: 2327019992017057719, guid: f8a54adbde1e16745a5f2e5e3afef800, type: 3}
   weaponDamage: 2
   weaponProjSpeed: 2
   weaponSpeed: 0.5

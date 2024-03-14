@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class WeaponAim : MonoBehaviour
 {
-    public float offset;
+    public GameObject barrelPosition;
 
     private void Update()
     {
