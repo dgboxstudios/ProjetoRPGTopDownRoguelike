@@ -32,7 +32,7 @@ public class ItemStore : MonoBehaviour
         priceHolder.text = weapons_.weaponPrice.ToString();
         infoHolder.text = "Damage: " + weapons_.weaponDamage.ToString() + "\nSpeed: " + weapons_.weaponSpeed.ToString() + "\nRange: " + weapons_.weaponRange.ToString();
 
-        if (InventoryManager.Instance.currentCoin < weapons_.weaponPrice)
+        if (InventoryManager.Instance.currentCoinPrata < weapons_.weaponPrice)
             isPriceButton.interactable = false;
         else
             isPriceButton.interactable = true;
@@ -42,7 +42,7 @@ public class ItemStore : MonoBehaviour
     {
         InventoryManager.Instance.weaponInventory[0] = null;
         InventoryManager.Instance.weaponInventory[0] = weapons;
-        InventoryManager.Instance.GoldAdd(weapons.weaponPrice * -1);
+        InventoryManager.Instance.GoldAdd(weapons.weaponPrice * -1, 0);
 
         //RefreshItem();
         Destroy(gameObject);

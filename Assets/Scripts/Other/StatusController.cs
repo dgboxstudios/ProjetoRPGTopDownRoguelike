@@ -16,7 +16,8 @@ public class StatusController : MonoBehaviour
     public float baseDash;
     public float moveDash;
     public int expAdd;
-    public GameObject addGold;
+    public GameObject dropCoinPrata;
+    public GameObject dropCoinOuro;
 
     [Space]
     [Header("Attack Configuration")]
@@ -45,7 +46,8 @@ public class StatusController : MonoBehaviour
     [Space]
     [Header("Chance in Percentage Gold")]
     [Space]
-    public float isPercentage;
+    public float isPercentagePrata;
+    public float isPercentageOuro;
 
     #endregion
 
@@ -76,9 +78,11 @@ public class StatusController : MonoBehaviour
         {
             spawnEnemys.CheckEnemyActive();
             InventoryManager.Instance.ExpAdd(expAdd);
-            
-            if(Random.value < isPercentage) // Tem 30% de chanse de dropar ouro
-                Instantiate(addGold, transform.position, Quaternion.identity);
+
+            if (Random.value < isPercentagePrata) // Tem 30% de chanse de dropar moeda de prata
+                Instantiate(dropCoinPrata, transform.position, Quaternion.identity);
+            else if (Random.value < isPercentageOuro)// Tem 10% de chanse de dropar moeda de ouro
+                Instantiate(dropCoinOuro, transform.position, Quaternion.identity);
 
             Destroy(gameObject);
         }

@@ -4977,6 +4977,140 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &341232665
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 341232666}
+  - component: {fileID: 341232668}
+  - component: {fileID: 341232667}
+  m_Layer: 5
+  m_Name: Coins Ouro
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &341232666
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341232665}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1634719784}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -585.25, y: 456.49}
+  m_SizeDelta: {x: 123.859, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &341232667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341232665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4280790996
+  m_fontColor: {r: 0.8301887, g: 0.68766075, b: 0.1527234, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 1
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &341232668
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 341232665}
+  m_CullTransparentMesh: 1
 --- !u!1 &416736178
 GameObject:
   m_ObjectHideFlags: 0
@@ -76319,9 +76453,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelUp: 1
   currentExp: 0
-  currentCoin: 50
+  currentCoinPrata: 50
+  currentCoinOuro: 0
   weaponInventory:
-  - {fileID: 11400000, guid: 30eed1d0d1894bb48b4e9b17c69bb1b7, type: 2}
+  - {fileID: 11400000, guid: a7c913fcf741c494cb5082c525b9a78a, type: 2}
 --- !u!4 &1120019635
 Transform:
   m_ObjectHideFlags: 0
@@ -77972,7 +78107,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeBar: {fileID: 1077001211}
   expBar: {fileID: 417974408}
-  coinText: {fileID: 2088008721}
+  coinPrataText: {fileID: 2088008721}
+  coinOuroText: {fileID: 341232667}
   damagePopUp: {fileID: 169859576402926337, guid: 7d4bd76cc25d7484aa9d41fe000fd0ce, type: 3}
   statusController: {fileID: 1709990870}
 --- !u!1 &1484470081
@@ -78074,15 +78210,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   weaponsSold:
+  - {fileID: 11400000, guid: 68a18128bba28bc49afd6bc05601a3c2, type: 2}
+  - {fileID: 11400000, guid: 80d2979c82b10d94495b74ae5d18c663, type: 2}
+  - {fileID: 11400000, guid: ec44dd17837616c4a83e41a0e5a51859, type: 2}
+  - {fileID: 11400000, guid: 067b6ac0ff9e35040a3300f39fba3de8, type: 2}
+  - {fileID: 11400000, guid: a1970de66ce3a1f4885425b094be8ad8, type: 2}
+  - {fileID: 11400000, guid: 30eed1d0d1894bb48b4e9b17c69bb1b7, type: 2}
+  - {fileID: 11400000, guid: 6711180fb61c69048ac3011b532bc2c6, type: 2}
+  - {fileID: 11400000, guid: 5d24391ad306c1d4baf16249d0e44b81, type: 2}
+  - {fileID: 11400000, guid: 0d045cc691187fe48be27c934b58f166, type: 2}
+  - {fileID: 11400000, guid: e7696593dc497854aa9d3c0b58a3b2de, type: 2}
   - {fileID: 11400000, guid: 07d9b8df7d168a84d836b94e866a7a7c, type: 2}
   - {fileID: 11400000, guid: 36e9ff7dd3a44524ab9a959085c6109b, type: 2}
-  - {fileID: 11400000, guid: e7696593dc497854aa9d3c0b58a3b2de, type: 2}
-  - {fileID: 11400000, guid: 80d2979c82b10d94495b74ae5d18c663, type: 2}
-  - {fileID: 11400000, guid: 68a18128bba28bc49afd6bc05601a3c2, type: 2}
-  - {fileID: 11400000, guid: 0d045cc691187fe48be27c934b58f166, type: 2}
-  - {fileID: 11400000, guid: 6711180fb61c69048ac3011b532bc2c6, type: 2}
-  - {fileID: 11400000, guid: 067b6ac0ff9e35040a3300f39fba3de8, type: 2}
-  - {fileID: 11400000, guid: 5d24391ad306c1d4baf16249d0e44b81, type: 2}
   - {fileID: 11400000, guid: f4b07f362274374439eeb1e80b493fe3, type: 2}
 --- !u!1 &1485087234
 GameObject:
@@ -78832,6 +78971,7 @@ RectTransform:
   - {fileID: 1077001210}
   - {fileID: 417974407}
   - {fileID: 2088008720}
+  - {fileID: 341232666}
   - {fileID: 263408700}
   - {fileID: 1694209086}
   - {fileID: 1533395859}
@@ -79135,7 +79275,7 @@ Transform:
   m_GameObject: {fileID: 1709990864}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.42, y: -4.85, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -79244,7 +79384,8 @@ MonoBehaviour:
   baseDash: 5
   moveDash: 0
   expAdd: 0
-  addGold: {fileID: 0}
+  dropCoinPrata: {fileID: 0}
+  dropCoinOuro: {fileID: 0}
   projectile: {fileID: 0}
   barrel: {fileID: 0}
   projectileSpeed: 0
@@ -79257,7 +79398,8 @@ MonoBehaviour:
   bonusDashMove: 0
   bonusDasnCooldown: 0
   spawnEnemys: {fileID: 0}
-  isPercentage: 0
+  isPercentagePrata: 0
+  isPercentageOuro: 0
 --- !u!114 &1709990871
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81621,7 +81763,7 @@ GameObject:
   - component: {fileID: 2088008722}
   - component: {fileID: 2088008721}
   m_Layer: 5
-  m_Name: Coins
+  m_Name: Coins Prata
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81643,7 +81785,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -782.32, y: 456.49}
+  m_AnchoredPosition: {x: -753.2, y: 456.49}
   m_SizeDelta: {x: 123.859, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2088008721
@@ -81675,8 +81817,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281782489
-  m_fontColor: {r: 0.8490566, g: 0.817217, b: 0.21226415, a: 1}
+    rgba: 4287072135
+  m_fontColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -81700,7 +81842,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
+  m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0476f2f6df87e5a40b66a420438b440a, type: 3}
+  m_Name: Acelga
+  m_EditorClassIdentifier: 
+  weaponName: Acelga
+  weaponPrice: 200
+  weaponIcon: {fileID: -1468501951, guid: c21a8f462fe1d1c48be2a6beaf95e80b, type: 3}
+  weaponProjectile: {fileID: 2943479452263701151, guid: f96abd352251def4fb57b4b11c9d47ac, type: 3}
+  weaponBarrel: {fileID: 2327019992017057719, guid: cf9162a9f2bf5114fa1efc269e88c1a3, type: 3}
+  weaponDamage: 3
+  weaponProjSpeed: 5
+  weaponSpeed: 0.6
+  weaponRange: 2

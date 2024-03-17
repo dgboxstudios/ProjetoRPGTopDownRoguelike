@@ -4,24 +4,37 @@ using UnityEngine;
 
 public class AddGold : MonoBehaviour
 {
-    [Header("Drop Gold Config")]
+    [Header("Drop Gold Prata Config")]
     [Space]
-    public int maxDropGold;
-    public int minDropGold;
+    public int maxDropGoldPrata;
+    public int minDropGoldPrata;
 
-    private int gold;
+    [Space]
+    [Header("Drop Gold Ouro Config")]
+    [Space]
+    public int dropGoldOuro;
+
+    private int goldPrata;
 
     private void Start()
     {
-        int randomGold = Random.Range(minDropGold, maxDropGold);
-        gold = randomGold;
+        RandomGold();
+    }
+
+    private void RandomGold()
+    {
+        if (minDropGoldPrata > 0)
+        {
+            int randomGoldPrata = Random.Range(minDropGoldPrata, maxDropGoldPrata);
+            goldPrata = randomGoldPrata;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.gameObject.tag == "Player")
         {
-            InventoryManager.Instance.GoldAdd(gold);
+            InventoryManager.Instance.GoldAdd(goldPrata, dropGoldOuro);
             Destroy(gameObject);
         }
     }

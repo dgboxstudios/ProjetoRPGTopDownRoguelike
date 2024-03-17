@@ -97,7 +97,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Revolver
+      name: P. Vermelho
       rect:
         serializedVersion: 2
         x: 48
@@ -117,6 +117,279 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Acelga
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 394
+        width: 19
+        height: 14
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998f0ab3d933ba3418b327034e6f7ce0
+      internalID: -1468501951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P. Verde
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 402
+        width: 8
+        height: 6
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244796981228f1f49854b14bd725d5bd
+      internalID: -111327037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: P. Amarelo
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 13
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9b254742ebf83845a43c3303da2093d
+      internalID: 1202796452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ervilha
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 180
+        width: 18
+        height: 12
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dcec952f0e3aa478b0889df26202dc
+      internalID: 252308840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Aipo
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 441
+        width: 15
+        height: 15
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09e9c8af4966a7343bcd84e17757a056
+      internalID: 564594028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pepino
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 372
+        width: 31
+        height: 12
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2eb9f59bcc6bf8641aaba8297abd1332
+      internalID: -1159580108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lanca G. Chuchu
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 468
+        width: 33
+        height: 12
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fd12a6834b78944a5dbe26610a5f05
+      internalID: -1196229130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomate Cereja
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 253
+        width: 25
+        height: 11
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2404d0ba05861549b4958042dc59bc3
+      internalID: 1407893001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomate
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 329
+        width: 35
+        height: 7
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77a5ca6f51fe0f14fb972f6e5454ce7e
+      internalID: -815872864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tomate C. Boi
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 375
+        width: 28
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 265f50c6ca63a914c976d8810e03967c
+      internalID: -1464649670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abobrinha
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 207
+        width: 18
+        height: 9
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c60bc2d38dd1a4d926ed4712166a1b
+      internalID: 1615238377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Espinafre
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 39
+        height: 8
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc899806f1c2bb944b97a7adbb52cd7e
+      internalID: -1165861249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rucula
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 250
+        width: 28
+        height: 14
+      alignment: 5
+      pivot: {x: 1, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a35ca6714c02984d9dec85a8bac3c01
+      internalID: -1672629221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -128,7 +401,20 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Revolver: -1942407688
+      Abobrinha: 1615238377
+      Acelga: -1468501951
+      Aipo: 564594028
+      Ervilha: 252308840
+      Espinafre: -1165861249
+      Lanca G. Chuchu: -1196229130
+      P. Amarelo: 1202796452
+      P. Verde: -111327037
+      P. Vermelho: -1942407688
+      Pepino: -1159580108
+      Rucula: -1672629221
+      Tomate: -815872864
+      Tomate C. Boi: -1464649670
+      Tomate Cereja: 1407893001
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

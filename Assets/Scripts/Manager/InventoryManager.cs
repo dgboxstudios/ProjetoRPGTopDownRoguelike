@@ -17,7 +17,8 @@ public class InventoryManager : MonoBehaviour
 
     [Header("Coin Configuration")]
     [Space]
-    public int currentCoin;
+    public int currentCoinPrata;
+    public int currentCoinOuro;
 
     [Header("Itens Configuration")]
     [Space]
@@ -52,7 +53,8 @@ public class InventoryManager : MonoBehaviour
     // Atualiza o inventario sempre que esta funcao e chamada
     private void RefreshInventory()
     {
-        HudManager.Instance.coinText.text = currentCoin.ToString();
+        HudManager.Instance.coinPrataText.text = currentCoinPrata.ToString();
+        HudManager.Instance.coinOuroText.text = currentCoinOuro.ToString();
 
         // Destri os slots antes de atualizar
         GameObject[] slotDestroy = GameObject.FindGameObjectsWithTag("Slot");
@@ -110,9 +112,10 @@ public class InventoryManager : MonoBehaviour
 
     #region Gold
 
-    public void GoldAdd(int currentCoin_)
+    public void GoldAdd(int currentCoinPrata_, int currentCoinOuro_)
     {
-        currentCoin += currentCoin_;
+        currentCoinPrata += currentCoinPrata_;
+        currentCoinOuro += currentCoinOuro_;
         RefreshInventory();
     }
 

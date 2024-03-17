@@ -14,7 +14,8 @@ public class HudManager : MonoBehaviour
     [Space]
     public Slider lifeBar;
     public Slider expBar;
-    public TMP_Text coinText;
+    public TMP_Text coinPrataText;
+    public TMP_Text coinOuroText;
     public GameObject damagePopUp;
 
     [Space]

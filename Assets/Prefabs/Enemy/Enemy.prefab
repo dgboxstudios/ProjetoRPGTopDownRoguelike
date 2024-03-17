@@ -564,8 +564,10 @@ MonoBehaviour:
   baseDash: 0
   moveDash: 0
   expAdd: 30
-  addGold: {fileID: 882701309085006226, guid: 86be55ba44114e54f8f0f107855b4efb, type: 3}
+  dropCoinPrata: {fileID: 882701309085006226, guid: 86be55ba44114e54f8f0f107855b4efb, type: 3}
+  dropCoinOuro: {fileID: 882701309085006226, guid: 157b8fbdfd7611a4fb1631de7c297c00, type: 3}
   projectile: {fileID: 0}
+  barrel: {fileID: 0}
   projectileSpeed: 0
   attackSpeed: 0
   attackRange: 0
@@ -576,7 +578,8 @@ MonoBehaviour:
   bonusDashMove: 0
   bonusDasnCooldown: 0
   spawnEnemys: {fileID: 0}
-  isPercentage: 0.3
+  isPercentagePrata: 0.3
+  isPercentageOuro: 0.1
 --- !u!1 &8903207273332082578
 GameObject:
   m_ObjectHideFlags: 0
